@@ -1,3 +1,4 @@
+#require 'pry'
 class Meal
     attr_accessor :total, :tip, :waiter, :customer
 
@@ -16,3 +17,8 @@ class Meal
     end     
 end
 
+#chicken = Meal.new("Officiant", "Aian", 550, 70)
+#morozhka = Meal.new("Offi", "Bair", 780, 107)
+#eggs = Meal.new("Offic", "Jack", 900, 148)
+
+#binding.pry 
